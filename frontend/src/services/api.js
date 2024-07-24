@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { config } from 'dotenv';
+
 
 const api = axios.create({
   baseURL: 'https://brewery-2dee.onrender.com/api',
