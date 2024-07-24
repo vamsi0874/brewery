@@ -2,7 +2,7 @@ import axios from 'axios';
 import { config } from 'dotenv';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL,
+  baseURL: 'https://brewery-2dee.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
