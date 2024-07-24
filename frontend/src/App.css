@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+a {
+  color: rgb(108, 184, 216);
+  text-decoration: none;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.select{
+  width: 8%;
+}
+
+input {
+  width: 30em;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input::placeholder, select::placeholder {
+  color: #999;
+}
+
+/* Button styles */
+button {
+  background-color: #f2f2f2;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3c99fd;
+  color: rgb(248, 248, 248);
+}
+
+.custom-input {
+
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+}
+
+.custom-select {
+
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  color: #495057;
+}
+th {
+  padding: 40px;
+}
+
+.head {
+  display: flex; 
+  justify-content: space-between;
+
+}
+
+.sel {
+  width: 50px;
+}
