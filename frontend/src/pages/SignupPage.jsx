@@ -27,6 +27,9 @@ const SignupPage = () => {
       if(user){
         window.location.reload();
       }
+
+      navigate('/breweries')
+ 
     } catch (error) {
       console.error('Signup failed:', error.message);
     }

@@ -16,7 +16,7 @@ const LoginPage = () => {
     try {
       const res = await login(email, password);
    
-
+    
       if(res.message){
         setError(res.message)
         navigate('/login'); 
@@ -29,6 +29,9 @@ const LoginPage = () => {
     } catch (error) {
       console.error('Login failed:', error);
     }
+  
+     navigate('/breweries')
+
   };
 
   return (
